@@ -609,7 +609,7 @@ async def main():
 
         # Run cycle in a task so we can still respond to Ctrl+C
         cycle_task = asyncio.create_task(
-            tracker.cycle_games(max_games=10000, heartbeats_per_game=2),
+            tracker.cycle_games(max_games=10000, heartbeats_per_game=1),
             name="cycle-games"
         )
 
