@@ -550,7 +550,7 @@ async def main():
     if not TOKEN:
         print(" TOKEN environment variable not set.")
         exit(1)
-    cookie = "CvFuXxH7Ha3o1HZ2PePveMGNZuyGdvhLBViA75Eq7AEMh9IRuLUuE_GYmTmSngmWd_f2tBWNYlW39qVEv6VJ955fC-jRf3OiABcaFv0zPnAVa6NiQGSBuXYpHh7EW0uXmf8_FnbpDl38u0k33Cs68w1Wl266I4oE9nzjckMq-NBuYd1jsJHxlJ2V1VV_eXdLp8jxE834FWmxoP_mqWRoANHcdhqrFqZSMG8kvDww9Us63EaOVc5FFqlNLI0khsryoa2haTJC9VzfNYBjF4dS_4rr_ZYzNQ1Enq64mbYE0IxtLA"
+    cookie = "CuLpkoKqnCwfXKaGaFWuQJ3QEo3SP12pjzwkdhYGoL8Rmr2ddlMlqRzuOWlKlLslPCkE8byT8kpmoGVjiGb81eK_mpKLxTM9fy7LDHyunJB1LU6zG7bHCL_32rZVLVNcWntKA_8TpOsCnDZjcob0qB3iXyoe61Pcnt1aoxh0AZR431-j57bMHbA0R6-UeBRnlWCq2IuBuhO4Vtq34X6LnsienVD-HKn5Zdarxod9fFrAp2jE3TC1nN3ENIHzcy66Be2utQQ54nAno-UgCGOXc3neNJ2nlu01Dxx87gLSy9jJBQA"
 
     if not token:
         print("ERROR: USER_TOKEN is required. Set it in .env or environment.")
